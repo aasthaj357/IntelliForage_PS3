@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['fiber', 'film', 'fragment', 'pellet']
+
+roboflow:
+  workspace: project-aunby
+  project: microplastic-nuga5-nk7mh
+  version: 3
+  license: BY-NC-SA 4.0
+  url: https://universe.roboflow.com/project-aunby/microplastic-nuga5-nk7mh/dataset/3
